@@ -1,0 +1,20 @@
+<div>
+  <div>
+    <input
+      type="color"
+      matInput
+      [disabled]="disabled"
+      [class.op0]="empty"
+      [value]="val() ?? ''"
+      (focus)="stateChanges.next()"
+      (blur)="stateChanges.next()"
+      (input)="onColorInput($event)"
+      #matinput
+    />
+  </div>
+  @if (val()) {
+    <button type="button" mat-icon-button (click)="clear($event)">
+      <mat-icon>cancel</mat-icon>
+    </button>
+  }
+</div>

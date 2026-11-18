@@ -1,0 +1,32 @@
+{
+  "name": "@kovalenko/material-color-picker",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/core": ">=22",
+    "@angular/material": ">=22",
+    "@angular/cdk": ">=22",
+    "@ngx-translate/core": ">=17",
+    "@kovalenko/base-components": "^4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/menelai/material-color-picker.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "form"
+  ],
+  "author": "Kovalenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/menelai/material-color-picker/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
